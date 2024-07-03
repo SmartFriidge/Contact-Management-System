@@ -1,8 +1,11 @@
 # Contact Management System
 
-The contact management program we have designed takes a modular approach towards the storage and manipulation of contacts stored using the json format. The functionality of the program includes loading, adding, searching, and deleting contacts, each of which is implemented as a seperate module. The load contacts function uses the os library to check if the file we use to store contacts exists and subsequently returns the data of the loaded file.
+The contact management program we have designed takes a modular approach towards the storage and manipulation of contacts stored using the json format. The functionality of the program includes loading, adding, searching, and deleting contacts, each of which is implemented as a seperate module.
 
 ## Modules
+
+### Load Contacts
+The load contacts function uses the os library to check if the file we use to store contacts exists and subsequently returns the data of the loaded file.
 
 ### Save Contacts
 The save contacts function writes the contact information stored in the program as a dictionary back to the file used for storage of the information.
